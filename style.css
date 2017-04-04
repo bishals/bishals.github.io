@@ -1,0 +1,124 @@
+*{
+ //border:1px solid black;
+}
+body{
+       //background-image: url("Images/me-min.jpg");
+      background: lightblue;
+    //  background: linear-gradient(to left,blue,green);
+      padding: 0;
+      margin: 0px 50px 0px 50px;
+      background-position: bottom right;
+      color: black;
+}
+h1 {
+     text-align: center;
+     background-color: seashell;
+     padding:1.2em;
+}
+h1 a{
+  text-decoration: none;
+  color: blue;
+}
+
+ ul{
+        list-style-type: none;
+        margin:0;
+        padding:0;
+        background-color: #00ffbf;
+        overflow: hidden;
+
+      }
+    li{
+        float:left;
+      }
+li a{
+  color:black;
+  text-decoration:none;
+  display:block;
+  padding:20px 20px;
+  margin:0px;
+}
+  li a:hover{
+    background-color: red;
+  }
+  li.dropdown{
+    display: inline-block;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #00ffbf;
+  }
+  .dropdown-content a{
+    color: black;
+    padding:12px 16px;
+    text-decoration: none;
+    display:block;
+    text-align: right;
+    margin:0px;
+  }
+  .dropdown-content a:hover {
+    background-color: yellow;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+.section{
+  margin-top:-10px;
+}
+.image{
+  position: relative;
+}
+.imgborder{
+  border: 5px solid blue;
+}
+.books{
+  list-style-type: disc;
+  display: block;
+  overflow: hidden;
+  margin-left: 10px;
+  width: 25%;
+  padding-left: 20px;
+  background-color: yellow;
+}
+.booklist > li{
+  float: none;
+}
+  .booklist a{
+              text-decoration: underline;
+              padding: 10px;
+              color:black;
+             display: inline-block;
+}
+.booklist a:hover{
+            text-decoration: none;
+            color:black;
+           background-color: gray;
+           display: inline-block;
+}
+
+table, .tabledata th, .tabledata td{
+  font-family: sans-serif;
+  border-collapse: collapse;
+   border: 2px solid blue;
+
+}
+.tabledata th{
+  background-color: green;
+  padding: 20px;
+}
+ .tabledata td{
+   padding: 5px;
+}
+ tr:nth-child(even){
+  background-color: white;
+}
+tr:nth-child(odd){
+  background-color: yellow;
+}
+tr:hover{background-color: lightblue;}
+
+.colors{
+  height: 55px;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
